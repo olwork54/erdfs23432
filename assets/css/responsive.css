@@ -58,6 +58,11 @@
 		margin-top: 20px;
 	}
 
+	.overview-content .banner-btn{
+		display: flex;
+		justify-content: center;
+	}
+
 	.home-area {
 		height: 100%;
 		padding-top: 150px;
@@ -477,6 +482,11 @@
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+	.overview-content .banner-btn{
+		display: flex;
+		justify-content: center;
+	}
+	
 	.section-title span {
 		font-size: 15px;
 	}
